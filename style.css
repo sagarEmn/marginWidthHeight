@@ -26,6 +26,7 @@ body {
   font-weight: 800;
   font-style: normal;
   color: var(--fc-heading);
+  font-size: 14px;
 
   /* dimensions, margins */
   max-width: 100%;
@@ -36,6 +37,10 @@ body {
 
 h1 {
   margin: 0;
+}
+
+p {
+  margin: 0.6rem 0;
 }
 
 .partial-width {
@@ -77,4 +82,16 @@ h1 {
 
 .partial-width .box {
   text-align: center;
+}
+
+@media screen and (max-width: 400px) {
+  body {
+    font-size: 0.75rem;
+  }
+  p {
+    margin: 0.5em;
+  }
+  .box {
+    padding: 0.5em;
+  }
 }
