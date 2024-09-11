@@ -4,6 +4,11 @@
 
   --ff-primary: "Ubuntu", sans-serif;
   --fw-primary: 400;
+
+  --fc-primary: #020826;
+
+  --primary-accent: #8c7851;
+  --secondary-accent: #716040;
 }
 
 * {
@@ -20,6 +25,7 @@ body {
   font-family: var(--ff-primary);
   font-weight: 800;
   font-style: normal;
+  color: var(--fc-heading);
 
   /* dimensions, margins */
   max-width: 100%;
