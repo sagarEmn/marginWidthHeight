@@ -34,18 +34,27 @@ body {
   padding: 1.5rem;
 }
 
-p,
 h1 {
-  margin: 1.4rem 0;
+  margin: 0;
 }
 
 .container {
   border: 2px solid black;
   margin-bottom: 1.5em;
-  padding: 0 1rem 1rem;
+  padding: 1rem;
+  background: var(--primary-accent);
 }
 
 .box {
+  margin-top: 1rem;
   border: 2px solid black;
-  background: var(--bg-secondary);
+  background: var(--bg-primary);
+}
+
+.title p {
+  margin: 0;
+}
+
+.partial-width .title {
+  text-align: center;
 }
