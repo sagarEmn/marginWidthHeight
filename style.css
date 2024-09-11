@@ -1,6 +1,9 @@
 :root {
   --bg-primary: #f9f4ef;
   --bg-secondary: #fffffe;
+
+  --ff-primary: "Ubuntu", sans-serif;
+  --fw-primary: 400;
 }
 
 * {
@@ -13,6 +16,12 @@ html {
 }
 
 body {
+  /* typography */
+  font-family: var(--ff-primary);
+  font-weight: 800;
+  font-style: normal;
+
+  /* dimensions, margins */
   max-width: 100%;
   margin: 0;
   background-color: var(--bg-primary);
