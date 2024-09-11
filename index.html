@@ -16,35 +16,37 @@
     />
   </head>
   <body>
-    <div class="container">
+    <div class="container default-width">
       <h1>Full Width (No Centering)</h1>
-      <div class="box full-width">
+      <div class="box">
         <p>Width: 100% (default)</p>
         <p>Display: Block (default)</p>
         <p>Margin: 0 auto; (doesn't work)</p>
         <p>Text-align: Center</p>
       </div>
     </div>
+
     <div class="container partial-width">
       <div class="title">
         <h1>Partial Width</h1>
         <p class="sub-title">text-align: center</p>
       </div>
-      <div class="box partial-width">
-        <p>Width: 100% (default)</p>
-        <p>Display: Block (default)</p>
-        <p>Margin: 0 auto; (doesn't work)</p>
+      <div class="box">
+        <p>Width: fit-content</p>
+        <p>Display: block (default)</p>
+        <p>Margin: 0 auto;</p>
         <p>Text-align: Center</p>
       </div>
     </div>
+
     <div class="container full-width">
       <div class="title">
         <h1>Full Width</h1>
         <p class="sub-title">text-align: center</p>
       </div>
-      <div class="box full-width">
+      <div class="box">
         <p>Width: 100% (default)</p>
-        <p>Display: Block (default)</p>
+        <p>Display: inline-block</p>
         <p>Margin: 0 auto; (doesn't work)</p>
         <p>Text-align: Center</p>
       </div>

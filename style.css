@@ -38,6 +38,21 @@ h1 {
   margin: 0;
 }
 
+.partial-width {
+  width: fit-content;
+  margin: 0 auto;
+}
+
+.full-width {
+  margin: 0 auto;
+  display: inline-block;
+  margin: 0 auto;
+}
+
+.full-width .title {
+  text-align: center;
+}
+
 .container {
   border: 2px solid black;
   margin-bottom: 1.5em;
@@ -49,6 +64,7 @@ h1 {
   margin-top: 1rem;
   border: 2px solid black;
   background: var(--bg-primary);
+  padding: 1rem;
 }
 
 .title p {
@@ -56,5 +72,9 @@ h1 {
 }
 
 .partial-width .title {
+  text-align: center;
+}
+
+.partial-width .box {
   text-align: center;
 }
